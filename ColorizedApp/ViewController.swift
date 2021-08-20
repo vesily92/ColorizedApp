@@ -9,11 +9,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var colorFieldView: UIView!
+    @IBOutlet var redIntensityLabel: UILabel!
+    @IBOutlet var greenIntensityLabel: UILabel!
+    @IBOutlet var blueIntensityLabel: UILabel!
+    
+    @IBOutlet var redColorSlider: UISlider!
+    @IBOutlet var greenColorSlider: UISlider!
+    @IBOutlet var blueColorSlider: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        colorFieldView.layer.cornerRadius = 20
     }
-
-
+    
+    @IBAction func intensifyRed() {
+    }
+    
+    @IBAction func intensifyGreen() {
+    }
+    
+    @IBAction func intensifyBlue() {
+    }
+    
 }
 
