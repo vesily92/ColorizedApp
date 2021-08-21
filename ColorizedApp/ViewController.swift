@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet var redColorSlider: UISlider!
     @IBOutlet var greenColorSlider: UISlider!
     @IBOutlet var blueColorSlider: UISlider!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,17 +42,28 @@ class ViewController: UIViewController {
         blueColorSlider.minimumTrackTintColor = .blue
     }
     
-    @IBAction func intensifyRed() {
+    override func viewWillLayoutSubviews() {
+        colorFieldView.backgroundColor = getUIColorForRGB()
+        
+    }
+    
+    @IBAction func intensifyRGB(_ sender: UISlider) {
         redIntensityLabel.text = String(format: "%.2f", redColorSlider.value)
-    }
-    
-    @IBAction func intensifyGreen() {
         greenIntensityLabel.text = String(format: "%.2f", greenColorSlider.value)
-    }
-    
-    @IBAction func intensifyBlue() {
         blueIntensityLabel.text = String(format: "%.2f", blueColorSlider.value)
+        
+        colorFieldView.backgroundColor = getUIColorForRGB()
+        
     }
-    
 }
 
+extension ViewController {
+    private func getUIColorForRGB() -> UIColor {
+        UIColor(
+            displayP3Red: CGFloat(redColorSlider.value),
+            green: CGFloat(greenColorSlider.value),
+            blue: CGFloat(blueColorSlider.value),
+            alpha: 1
+        )
+    }
+}
