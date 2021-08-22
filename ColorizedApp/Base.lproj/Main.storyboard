@@ -38,7 +38,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuI-8t-WJs">
                                                         <rect key="frame" x="80" y="0.0" width="35" height="30"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="35" id="fzg-Oq-Xan"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="fzg-Oq-Xan"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -72,7 +72,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIZ-NK-Xt1">
                                                         <rect key="frame" x="80" y="0.0" width="35" height="30"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="35" id="UBY-bi-XpC"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="UBY-bi-XpC"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -106,7 +106,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLj-XE-I6Y">
                                                         <rect key="frame" x="80" y="0.0" width="35" height="30"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="35" id="jV4-cJ-C3e"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="jV4-cJ-C3e"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
