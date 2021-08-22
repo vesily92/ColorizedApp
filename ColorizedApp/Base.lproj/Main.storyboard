@@ -132,13 +132,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="blueColorSlider" destination="k5o-Ve-z3w" id="WHq-lr-A36"/>
-                        <outlet property="blueIntensityLabel" destination="ZLj-XE-I6Y" id="LHP-aN-G1D"/>
+                        <outlet property="blueSlider" destination="k5o-Ve-z3w" id="WHq-lr-A36"/>
+                        <outlet property="blueValueLabel" destination="ZLj-XE-I6Y" id="LHP-aN-G1D"/>
                         <outlet property="colorFieldView" destination="MSe-Id-pVr" id="FBN-Kg-ZGe"/>
-                        <outlet property="greenColorSlider" destination="mm4-6W-B7H" id="Lnf-VA-Zrv"/>
-                        <outlet property="greenIntensityLabel" destination="dIZ-NK-Xt1" id="epW-72-8dC"/>
-                        <outlet property="redColorSlider" destination="0U1-ep-NaJ" id="gZX-dh-VGx"/>
-                        <outlet property="redIntensityLabel" destination="wuI-8t-WJs" id="h81-pa-SPc"/>
+                        <outlet property="greenSlider" destination="mm4-6W-B7H" id="Lnf-VA-Zrv"/>
+                        <outlet property="greenValueLabel" destination="dIZ-NK-Xt1" id="epW-72-8dC"/>
+                        <outlet property="redSlider" destination="0U1-ep-NaJ" id="gZX-dh-VGx"/>
+                        <outlet property="redValueLabel" destination="wuI-8t-WJs" id="h81-pa-SPc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
