@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B91205726E384C10033CCF2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91205626E384C10033CCF2 /* MainViewController.swift */; };
 		7BD905D926CF963600A09520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD905D826CF963600A09520 /* AppDelegate.swift */; };
 		7BD905DB26CF963600A09520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD905DA26CF963600A09520 /* SceneDelegate.swift */; };
 		7BD905DD26CF963600A09520 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD905DC26CF963600A09520 /* SettingsViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B91205626E384C10033CCF2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7BD905D526CF963600A09520 /* ColorizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD905D826CF963600A09520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BD905DA26CF963600A09520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B91205326E3845F0033CCF2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7BD905DE26CF963600A09520 /* Main.storyboard */,
+				7BD905E326CF963900A09520 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7B91205426E384720033CCF2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7BD905D826CF963600A09520 /* AppDelegate.swift */,
+				7BD905DA26CF963600A09520 /* SceneDelegate.swift */,
+				7BD905E626CF963900A09520 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7B91205526E384970033CCF2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BD905DC26CF963600A09520 /* SettingsViewController.swift */,
+				7B91205626E384C10033CCF2 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		7BD905CC26CF963600A09520 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +86,10 @@
 		7BD905D726CF963600A09520 /* ColorizedApp */ = {
 			isa = PBXGroup;
 			children = (
-				7BD905D826CF963600A09520 /* AppDelegate.swift */,
-				7BD905DA26CF963600A09520 /* SceneDelegate.swift */,
-				7BD905DC26CF963600A09520 /* SettingsViewController.swift */,
-				7BD905DE26CF963600A09520 /* Main.storyboard */,
+				7B91205426E384720033CCF2 /* App */,
+				7B91205526E384970033CCF2 /* ViewControllers */,
+				7B91205326E3845F0033CCF2 /* Storyboards */,
 				7BD905E126CF963900A09520 /* Assets.xcassets */,
-				7BD905E326CF963900A09520 /* LaunchScreen.storyboard */,
-				7BD905E626CF963900A09520 /* Info.plist */,
 			);
 			path = ColorizedApp;
 			sourceTree = "<group>";
@@ -140,6 +167,7 @@
 				7BD905DD26CF963600A09520 /* SettingsViewController.swift in Sources */,
 				7BD905D926CF963600A09520 /* AppDelegate.swift in Sources */,
 				7BD905DB26CF963600A09520 /* SceneDelegate.swift in Sources */,
+				7B91205726E384C10033CCF2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J64K7CHM53;
-				INFOPLIST_FILE = ColorizedApp/Info.plist;
+				INFOPLIST_FILE = ColorizedApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J64K7CHM53;
-				INFOPLIST_FILE = ColorizedApp/Info.plist;
+				INFOPLIST_FILE = ColorizedApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
